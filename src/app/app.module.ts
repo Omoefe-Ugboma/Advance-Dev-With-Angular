@@ -21,7 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    StoreModule.forRoot(appReducer),
+    StoreModule.forRoot({}),
     AppRoutingModule,
     StoreDevtoolsModule.instrument({ 
       maxAge: 25, logOnly: environment.production })
